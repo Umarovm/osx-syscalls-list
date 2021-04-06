@@ -330,8 +330,8 @@ if __name__ == "__main__":
 		sys.exit(1)
 
 	PATH_XNU_SOURCE = sys.argv[1]
-	URL_XNU_SOURCE = "https://opensource.apple.com/source/xnu/xnu-4570.41.2/"
-	PATH_EXUBERANT_CTAGS = "/usr/local/Cellar/ctags/5.8_1/bin/ctags"
+	URL_XNU_SOURCE = "https://opensource.apple.com/source/xnu/xnu-7195.81.3/"
+	PATH_EXUBERANT_CTAGS = "/usr/local/Cellar/ctags/5.8_2/bin/ctags"
 	PATH_BSD_SYSCALLS = PATH_XNU_SOURCE + "bsd/kern/syscalls.master"
 	PATH_BSD_TEMP_FILE = "/tmp/bsd-syscall-tmp"
 	OUTPUT_JSON = "osx-bsd-syscalls.json"
